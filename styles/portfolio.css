@@ -3,6 +3,10 @@
   --roboto-font: "Roboto", sans-serif;
   --montserrat-font: "Montserrat", sans-serif;
 }
+body {
+  background-color: black;
+}
+
 h1 {
   text-align: center;
   font-size: 72px;
@@ -40,6 +44,7 @@ p {
 .hero-image {
   background-image: url(/photos/bg.png);
   height: 900px;
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
 }
