@@ -5,6 +5,8 @@
 }
 body {
   background-color: #202020;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 h1 {
@@ -50,7 +52,6 @@ p {
 }
 .main-content {
   text-align: center;
-
   padding-top: 160px;
   display: block;
   margin-left: 32%;
@@ -64,4 +65,14 @@ p {
   border-radius: 50px;
   line-height: 17.07px;
   letter-spacing: 0.1em;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 46px;
+    text-align: center;
+  }
+  p {
+    font-size: 16px;
+    margin-left: 10%;
+  }
 }
