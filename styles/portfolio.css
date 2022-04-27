@@ -31,10 +31,7 @@ h2 {
   display: flex;
   justify-content: center;
 }
-img {
-  height: fit-content;
-  width: auto;
-}
+
 .homeP-introduction {
   font-size: 18px;
   font-family: var(--roboto-font);
