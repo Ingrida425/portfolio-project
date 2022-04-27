@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
 }
 
-h1 {
+.hero-image h1 {
   text-align: center;
   font-size: 72px;
   font-family: var(--roboto-font);
@@ -21,7 +21,7 @@ h1 {
   display: flex;
   justify-content: center;
 }
-h2 {
+.hero-image h2 {
   font-size: 24px;
   font-family: var(--montserrat-font);
   letter-spacing: 0.1em;
@@ -69,6 +69,33 @@ h2 {
   border-radius: 50px;
   line-height: 17.07px;
   letter-spacing: 0.1em;
+}
+.about-section p {
+  color: white;
+  font-family: var(--roboto-font);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  padding-right: 15%;
+}
+.about-section h1 {
+  color: white;
+  font-family: var(--roboto-font);
+  font-size: 65px;
+  font-weight: bold;
+  line-height: 75px;
+  letter-spacing: 0.1em;
+}
+.about-section h2 {
+  color: #f65282;
+  font-size: 18px;
+  font-family: var(--roboto-font);
+  line-height: 21.09px;
+  letter-spacing: 0.1em;
+}
+.icons {
+  color: white;
+  font-size: 18px;
 }
 @media (max-width: 576px) {
   .homeP-heading {
