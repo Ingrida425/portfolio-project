@@ -95,7 +95,14 @@ body {
 }
 .icons {
   color: white;
+  font-size: 17px;
+}
+.camera {
+  color: white;
+  background-color: #2d2727;
+  font-family: var(--roboto-font);
   font-size: 18px;
+  margin-right: 30%;
 }
 @media (max-width: 576px) {
   .homeP-heading {
