@@ -11,7 +11,7 @@ body {
 
 .hero-image h1 {
   text-align: center;
-  font-size: 72px;
+  font-size: 68px;
   font-family: var(--roboto-font);
   font-weight: bold;
   letter-spacing: 0.1em;
@@ -47,8 +47,8 @@ body {
 }
 
 .hero-image {
-  background-image: url(/photos/bg.png);
-  height: 100vh;
+  background-image: url(/photos/tentBg.png);
+  height: 120vh;
   max-width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -105,8 +105,8 @@ body {
   margin-right: 30%;
 }
 @media (max-width: 576px) {
-  .homeP-heading {
-    font-size: 44px;
+  .hero-image h1 {
+    font-size: 58px;
     text-align: center;
   }
   .homeP-introduction {
@@ -122,8 +122,8 @@ body {
     background-size: 100%;
     background-position: center;
   }
-  h1 {
-    font-size: 60px;
+  .hero-image h1 {
+    font-size: 48px;
   }
   .homeP-introduction {
     margin-left: 10%;
