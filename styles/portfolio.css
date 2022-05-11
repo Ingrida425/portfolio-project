@@ -78,7 +78,8 @@ body {
   line-height: 30px;
   padding-right: 15%;
 }
-.about-section h1 {
+.about-section h1,
+.contact-section h1 {
   color: white;
   font-family: var(--roboto-font);
   font-size: 65px;
@@ -86,7 +87,8 @@ body {
   line-height: 75px;
   letter-spacing: 0.1em;
 }
-.about-section h2 {
+.about-section h2,
+.contact-section h2 {
   color: #f65282;
   font-size: 18px;
   font-family: var(--roboto-font);
@@ -97,12 +99,9 @@ body {
   color: white;
   font-size: 17px;
 }
-.camera {
+.contact-section h3 {
   color: white;
-  background-color: #2d2727;
-  font-family: var(--roboto-font);
   font-size: 18px;
-  margin-right: 30%;
 }
 .gallery-page h1 {
   text-align: center;
