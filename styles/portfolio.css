@@ -48,7 +48,7 @@ body {
 
 .hero-image {
   background-image: url(/photos/tentBg.png);
-  height: 120vh;
+  height: 100vh;
   max-width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -97,7 +97,7 @@ body {
 }
 .icons {
   color: white;
-  font-size: 17px;
+  font-size: 24px;
 }
 .contact-section h3 {
   color: white;
